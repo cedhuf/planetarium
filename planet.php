@@ -9,9 +9,8 @@
   Created by Little Workshop http://www.littleworkshop.fr
 
   * Libraries used : jQuery, Raphaël, RequireJS
-  * Go check out the source on GitHub at : http://github.com/[insert repo URL]
-  * Supported in Firefox 4, Chrome, Safari
-	We use the work of https://github.com/petethepig/github-ribbons-css Copyright (C) 2012 Dmitry Filimonov for the fork me ribbon.
+  * * Go check out the original source-code on GitHub at : http://github.com/littleworkshop/planetarium
+  * Supported in Firefox, Chrome, Safari
 -->
 
 <?php
@@ -63,9 +62,9 @@ include_once 'languages/'.$lang_file;
 	</style>
 	<title><?php echo $lang['PAGE_TITLE']; ?></title>
 
+<!-- Fork me ribbon, https://github.com/petethepig/github-ribbons-css Copyright (C) 2012 Dmitry Filimonov  -->
 	<link href="css/ribbons.css" rel="stylesheet" type="text/css" />
-
-<div class="ribbon right black">
+	<div class="ribbon right black">
   <a href="https://github.com/cedhuf/planetarium/"><?php echo $lang['FORK_GITHUB']; ?></a>
 </div>
 
