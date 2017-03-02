@@ -11,6 +11,7 @@
   * Libraries used : jQuery, Raphaël, RequireJS
   * Go check out the source on GitHub at : http://github.com/[insert repo URL]
   * Supported in Firefox 4, Chrome, Safari
+	We use the work of https://github.com/petethepig/github-ribbons-css Copyright (C) 2012 Dmitry Filimonov for the fork me ribbon.
 -->
 
 <?php
